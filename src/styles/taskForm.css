@@ -1,0 +1,20 @@
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input-task{
+    width: 50%;
+    background-color: green;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+}
+.input-task::placeholder{
+    color: whitesmoke;
+}
+
+.button-add{
+    background-color: greenyellow;
+}
